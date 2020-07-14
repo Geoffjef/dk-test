@@ -1,0 +1,23 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="BLOCKLY_TILESET_TYPE" id="~f0rg37^R1r!wRn+/VZq">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id=".ef8HTOMY7R3bM-:Q57W">1;16;16;eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefeffffeefeffffefeffffffeeffffffefffeeffffffeefffffeffeffffeffeffffeffeffffeffefffffeeffffffeefffeffffffeeffffffefeffffeffeffffefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</variable><variable type="BLOCKLY_TILESET_TYPE" id="`R#PfF]de:QK.hs24G*@">2;16;16;2222222222222222222222222222222222222222222222222222222222222222f2ffff2ff2ffff2f2ffffff22ffffff2fff22ffffff22fffff2ff2ffff2ff2ffff2ff2ffff2ff2fffff22ffffff22fff2ffffff22ffffff2f2ffff2ff2ffff2f2222222222222222222222222222222222222222222222222222222222222222</variable><variable type="BLOCKLY_TILESET_TYPE" id="_Z?XVGhPGd+g$Hv%y1sv">3;16;16;ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="tilemap_editor"><field name="tilemap">tiles.createTilemap(
+            hex`1000100003030303030303030303030303030303030303030303030301010101010303030303030301010101030303030303030301010101030303030303030303030303030303030303030303030303030303030101010103030303030303030303030303030303010101010303030303030303030303030303030301010101030303030303030303030303030303030101010103030303030303030303030303030303030303030303030303030303010101010303030303030303010101010303030303030303010101010303030303030303010101010303030303030303030303030303030303030303030303030303030301010101010101010101010101010101`,
+            img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . 2 2 2 2 2 . . . 
+. . . . 2 2 2 2 . . . . . . . . 
+2 2 2 2 . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+2 2 2 2 . . . . . . . . . . . . 
+. . . . 2 2 2 2 . . . . . . . . 
+. . . . . . . . 2 2 2 2 . . . . 
+. . . . . . . . . . . . 2 2 2 2 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . 2 2 2 2 
+. . . . . . . . 2 2 2 2 . . . . 
+. . . . 2 2 2 2 . . . . . . . . 
+2 2 2 2 . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+`,
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3],
+            TileScale.Sixteen
+        )</field></block></statement></block></xml>
